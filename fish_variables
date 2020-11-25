@@ -33,4 +33,8 @@ SETUVAR fish_pager_color_prefix:white\x1e\x2d\x2dbold\x1e\x2d\x2dunderline
 SETUVAR fish_pager_color_progress:brwhite\x1e\x2d\x2dbackground\x3dcyan
 SETUVAR theme_display_git_master_branch:yes
 SETUVAR theme_display_k8s_context:yes
-SETUVAR theme_use_abbreviated_branch_name:yes
+SETUVAR theme_display_k8s_namespace:yes
+SETUVAR theme_newline_cursor:yes
+SETUVAR theme_newline_prompt:\x24\x20
+SETUVAR theme_show_exit_status:yes
+SETUVAR theme_use_abbreviated_branch_name:no
