@@ -10,10 +10,13 @@ alias src="source ~/.config/fish/config.fish"
 alias efc="e -n ~/.config/fish/config.fish"
 
 alias hme="cd ~/projects/git"
+alias fsh="cd ~/.config/fish/"
 
 alias cec="conda env create --force"
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
-eval /Users/keeganpapakipos/anaconda3/bin/conda "shell.fish" "hook" $argv | source
+set anacondaBin (dirname (which python))
+set condaPath $anacondaBin/conda
+eval $condaPath "shell.fish" "hook" $argv | source
 # <<< conda initialize <<<
