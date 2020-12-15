@@ -13,7 +13,9 @@ alias hme="cd ~/projects/git"
 
 alias cec="conda env create --force"
 
+set -Ux PATH $PATH /home/kpapakipos/anaconda3/bin
+
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
-eval /Users/keeganpapakipos/anaconda3/bin/conda "shell.fish" "hook" $argv | source
+# eval /home/kpapakipos/anaconda3/bin/conda "shell.fish" "hook" $argv | source
 # <<< conda initialize <<<
