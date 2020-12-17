@@ -14,6 +14,8 @@ alias fsh="cd ~/.config/fish/"
 
 alias cec="conda env create --force"
 
+set -Ux PATH $PATH /home/kpapakipos/anaconda3/bin
+
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
 set anacondaBin (dirname (which python))
